@@ -1,25 +1,29 @@
 /* DashboardComponent's private CSS styles */
 [class*='col-'] {
   float: left;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-bottom: 30px;
 }
 [class*='col-']:last-of-type {
-  padding-right: 0;
+  padding-right:0;
 }
 a {
   text-decoration: none;
+    
 }
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 h3 {
   text-align: center; margin-bottom: 0;
+    color: chocolate;
+    
 }
 h4 {
   position: relative;
+    color:floralwhite;
 }
 .grid {
   margin: 0;
@@ -30,14 +34,15 @@ h4 {
 .module {
   padding: 20px;
   text-align: center;
-  color: #eee;
-  max-height: 120px;
-  min-width: 120px;
-  background-color: #607D8B;
+  color:beige;
+  max-height: 100px;
+  min-width: 100px;
+  background-color:darkcyan;
   border-radius: 2px;
+    font-family:serif;
 }
 .module:hover {
-  background-color: #EEE;
+  background-color:darksalmon;
   cursor: pointer;
   color: #607d8b;
 }
